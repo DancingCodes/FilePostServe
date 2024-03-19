@@ -5,7 +5,7 @@ if (process.env.NODE_ENV === 'development') {
     localPath = `http://localhost:${require('../prot')}`
 } else {
     // 线上
-    localPath = `https://filepostapi.moonc.love`
+    localPath = "https://filepostapi.moonc.love"
 }
 
 module.exports = localPath
